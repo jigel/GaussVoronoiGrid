@@ -4,4 +4,3 @@ h5py
 pandas
 pyproj
 pillow
-git+git://github.com/matplotlib/basemap#egg=basemap
