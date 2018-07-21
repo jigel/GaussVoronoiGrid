@@ -24,6 +24,7 @@ setup(
         "basemap",
         "pandas",
         "h5py",
-        "pyproj"],
+        "pyproj",
+        "pillow"],
 )
 
