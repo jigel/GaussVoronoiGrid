@@ -1,5 +1,7 @@
 # Gauss Voronoi Grid
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jigel/GaussVoronoiGrid/master)
+
 Dependencies: numpy, scipy, h5py, pandas, cartopy. Run below to install after cloning the repository:
 
 ```
