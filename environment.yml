@@ -58,7 +58,6 @@ dependencies:
   - openblas=0.2.20=8
   - openssl=1.0.2o=0
   - owslib=0.16.0=py_0
-  - pandoc=2.2.2=hde52d81_1
   - pandocfilters=1.4.2=py_1
   - parso=0.3.0=py_0
   - pexpect=4.6.0=py36_0
