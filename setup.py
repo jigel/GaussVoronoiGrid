@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-
 setup(
     name = 'Gauss-Voronoi Grid',
     version = '0.0.0a0',
@@ -24,6 +23,7 @@ setup(
         "scipy",
         "basemap",
         "pandas",
-        "h5py"],
+        "h5py",
+        "pyproj"],
 )
 
