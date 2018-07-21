@@ -4,7 +4,6 @@ channels:
   - defaults
 dependencies:
   - appdirs=1.4.3=py_1
-  - appnope=0.1.0=py36_0
   - asn1crypto=0.24.0=py_1
   - attrs=18.1.0=py_1
   - automat=0.7.0=py36_0
