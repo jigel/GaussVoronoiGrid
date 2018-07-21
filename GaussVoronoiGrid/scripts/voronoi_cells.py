@@ -68,28 +68,3 @@ def get_voronoi_surface_area(grd, voronoi_plot = False):
     print('All voronoi cell surface areas calculated.')
     
     return grd, voronoi_area
-
-
-def get_ocean_mask(grid):
-    """
-    Get ocean mask and remove from grid
-    Input: grid with longitudes & latitudes
-    Returns: array of True/False corresponding to indices in grid
-    """
-    print('Getting ocean mask...')
-    from mpl_toolkits.basemap import Basemap
-    import numpy as np
-    
-    latmin = np.min(grid[1])
-    latmax = np.max(grid[1])
-    lonmin = np.min(grid[0])
-    lonmax = np.max(grid[0])
-    print("Latitudes: {} to {}, Longitudes: {} to {}".format(np.around(latmin,2),np.around(latmax,2),np.around(lonmin,2),np.around(lonmax,2)))
-    m = Basemap(rsphere=6378137,resolution='l',projection='cea',
-        llcrnrlat=latmin,urcrnrlat=latmax,
-        llcrnrlon=lonmin,urcrnrlon=lonmax)
-    (east,north) = m(grid[0],grid[1])
-
-    ocean_mask = [not m.is_land(x,y) for (x,y) in zip(east,north)]
-    print('Getting ocean mask done.')
-    return np.array(ocean_mask)

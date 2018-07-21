@@ -21,10 +21,8 @@ setup(
     install_requires = [
         "numpy",
         "scipy",
-        "basemap",
+        "cartopy",
         "pandas",
-        "h5py",
-        "pyproj",
-        "pillow"],
+        "h5py",],
 )
 
