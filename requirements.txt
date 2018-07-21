@@ -2,5 +2,4 @@ numpy
 scipy
 h5py
 pandas
-cython
-cartopy
+git+git://github.com/SciTools/cartopy#egg=cartopy
