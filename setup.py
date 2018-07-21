@@ -16,13 +16,13 @@ setup(
         'Programming Language :: Python :: 3',
     ],
     keywords = 'Gauss Voronoi Grid',
-    #packages = find_packages(),
+    packages = find_packages(),
     #package_data = ,
-    #install_requires = [
-    #    "numpy",
-    #    "scipy",
-    #    "cartopy",
-    #    "pandas",
-    #    "h5py",],
+    install_requires = [
+        "numpy",
+        "scipy",
+        "cartopy",
+        "pandas",
+        "h5py",],
 )
 
