@@ -3,7 +3,7 @@
 Dependencies: numpy, scipy, h5py, pandas, cartopy. Run below to install after cloning the repository:
 
 ```
-conda install numpy scipy h5py cartopy
+conda install numpy scipy h5py pandas cartopy
 ```
 
 This code can be used to create Gaussian Grids with various input arguments, such as the minimum and maximum grid point distance, the size of the area of interest, the steepness of the decrease of gridpoint density, and the center of the dense area. Additionally, the voronoi cell surface areas for the grids can be calculated. If wanted, all gridpoints and voronoi cell areas on land can be removed. All this is then saved in .h5 files in the folder /GaussVoronoiGrid/grids.
