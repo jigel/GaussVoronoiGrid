@@ -23,7 +23,6 @@ setup(
         "numpy",
         "scipy",
         "basemap",
-        "mpi4py>=2.0.0",
         "pandas",
         "h5py"],
 )

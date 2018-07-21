@@ -1,5 +1,9 @@
 # Gauss Voronoi Grid
 
+To install: clone and run pip install -v . in the GaussVoronoiGrid/ directory. 
+
+Dependencies: numpy, scipy, basemap, h5py, pandas.
+
 This code can be used to create Gaussian Grids with various input arguments, such as the minimum and maximum grid point distance, the size of the area of interest, the steepness of the decrease of gridpoint density, and the center of the dense area. Additionally, the voronoi cell surface areas for the grids can be calculated. If wanted, all gridpoints and voronoi cell areas on land can be removed. All this is then saved in .h5 files in the folder /GaussVoronoiGrid/grids.
 
 At the moment, all this is done in the Jupyter Notebook 'GaussVoronoiGrid.ipynb'. The option of running it without Jupyter Notebooks will soon be added. 
