@@ -1,6 +1,6 @@
 # Gauss Voronoi Grid
 
-Dependencies: numpy, scipy, basemap, h5py, pandas, pyproj, pillow. Run below to install:
+Dependencies: numpy, scipy, basemap, h5py, pandas, pyproj, pillow. Run below to install after cloning the repository:
 
 ```
 conda install numpy scipy basemap h5py pandas pyproj pillow
