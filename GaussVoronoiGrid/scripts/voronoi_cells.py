@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-from code.borrowed_functions.voronoi_polygons import getVoronoiCollection
-from code.borrowed_functions.voronoi_surface_area import calculate_surface_area_of_a_spherical_Voronoi_polygon
-from code.borrowed_functions.voronoi_polygons import xyzToSpherical
+from GaussVoronoiGrid.borrowed_functions.voronoi_polygons import getVoronoiCollection
+from GaussVoronoiGrid.borrowed_functions.voronoi_surface_area import calculate_surface_area_of_a_spherical_Voronoi_polygon
+from GaussVoronoiGrid.borrowed_functions.voronoi_polygons import xyzToSpherical
 import warnings
 warnings.filterwarnings("ignore")
 
