@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - asn1crypto=0.24.0=py_1
   - blas=1.1=openblas
   - ca-certificates=2018.4.16=0
   - cartopy=0.16.0=py36_0
