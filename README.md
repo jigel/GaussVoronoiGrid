@@ -29,7 +29,7 @@ As mentioned, all gridpoints on land can be removed.
 
 ## Voronoi Cells
 
-The Voronoi cells can also be plotted, although this is not recommended as it increase the computation time by a lot. 
+The Voronoi cells can also be plotted, although this is not recommended as it increases the computation time by a lot. 
 
 ![Gaussian Grid](docs/GaussianGrid_Example_2.png)
 
